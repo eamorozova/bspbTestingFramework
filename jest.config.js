@@ -12,4 +12,5 @@ module.exports = {
     testTimeout: 50000,
   },
   verbose: true,
+  setupFilesAfterEnv: ['jest-allure/dist/setup'],
 };

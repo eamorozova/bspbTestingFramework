@@ -3,6 +3,7 @@ import { BasePage } from './base.page';
 export class StartPage extends BasePage {
   constructor(page) {
     super(page);
+
     this.field = {
       login: '//input[@name="username"]',
       password: '//input[@name="password"]',
@@ -15,12 +16,12 @@ export class StartPage extends BasePage {
   }
 
   async login() {
-    await this.fillField(this.field.login, 'demo');
-    await this.fillField(this.field.password, 'demo');
-    await this.clickButton(this.button.enterLogin);
+    await this.fill(this.field.login, 'demo');
+    await this.fill(this.field.password, 'demo');
+    await this.click(this.button.enterLogin);
 
-    await this.clickButton(this.field.optCode);
-    await this.fillField(this.field.optCode, '0000');
-    await this.clickButton(this.button.enterOpt);
+    await this.click(this.field.optCode);
+    await this.fill(this.field.optCode, '0000');
+    await this.click(this.button.enterOpt);
   }
 }

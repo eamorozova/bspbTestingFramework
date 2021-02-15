@@ -3,11 +3,11 @@ export class BasePage {
     this.page = page;
   }
 
-  async clickButton(button) {
+  async click(button) {
     await this.page.click(button);
   }
 
-  async fillField(field, string) {
+  async fill(field, string) {
     await this.page.click(field);
     await this.page.fill(field, string);
   }
@@ -20,8 +20,8 @@ export class BasePage {
     await frame.click('#confirm');
   }
 
-  async returnText(selector) {
-    const text = await this.page.textContent(selector);
+  async getSuccessText() {
+    const text = await this.page.waitForSelector('//div[@class="alert alert-success"]');
     return text;
   }
 }

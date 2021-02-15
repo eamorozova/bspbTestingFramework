@@ -1,9 +1,13 @@
 import { BasePage } from './base.page';
+import { randomMonth, randomNumber, randomYear } from '../config/randomNumber.config';
 
 export class CardsPage extends BasePage {
   constructor(page) {
     super(page);
+
     this.button = {
+      block: 'text="Заблокировать"',
+      confirmBlock: '#block-card',
       orderFirstCard: 'text="Заказать"',
       orderNewCard: '#order-new-card-link',
       orderNewCard2: '#forward',
@@ -24,6 +28,7 @@ export class CardsPage extends BasePage {
       cardNumber: '//input[@name="card.number"]',
       cardYear: '//input[@name="card.validityYear"]',
       income: '//input[@name="application.monthlyIncome"]',
+      offerText: '//div[@class="credit-card-offer"]',
       successText: '//div[@class="alert alert-success"]',
     };
 
@@ -33,35 +38,46 @@ export class CardsPage extends BasePage {
   }
 
   async addOtherBankCard() {
-    await this.clickButton(this.button.orderOtherBankCard);
-    await this.fillField(this.field.cardNumber, '5555555555555555');
-    await this.fillField(this.field.cardMonth, '12');
-    await this.fillField(this.field.cardYear, '2023');
-    await this.fillField(this.field.cardCVV, '222');
-    await this.clickButton(this.button.saveOtherCard);
-
+    await this.click(this.button.orderOtherBankCard);
+    await this.fill(this.field.cardNumber, randomNumber(16));
+    await this.fill(this.field.cardMonth, randomMonth());
+    await this.fill(this.field.cardYear, randomYear());
+    await this.fill(this.field.cardCVV, randomNumber(3));
+    await this.click(this.button.saveOtherCard);
     await this.fillOTP();
   }
 
-  async getSuccessText() {
-    const text = await this.page.textContent(this.field.successText);
-    return text;
+  async blockCard() {
+    await this.click(this.button.block);
+    await this.click(this.button.confirmBlock);
+    await this.fillOTP();
   }
 
+  async clickOrderNewCard() {
+    await this.click(this.button.orderNewCard);
+  }
+
+  async getOfferText() {
+    await this.page.waitForLoadState('networkidle');
+    const element = await this.page.$(this.field.offerText);
+    return element;
+  }
+
+  // TODO: выбор первого в списке
   async orderNewCard() {
-    await this.page.click(this.button.orderNewCard);
-    await this.page.click(this.button.orderFirstCard);
-
+    await this.click(this.button.orderFirstCard);
     await this.page.selectOption(this.select.office, { label: 'Центральный: 197374, г. Сланцы, пр. Космонавтов, д. 100A' });
-    await this.page.click(this.button.orderNewCard2);
+    await this.click(this.button.orderNewCard2);
+    await this.fillOTP();
+  }
 
-    // Другая версия
-    // await this.fillField(this.field.income, '100000');
-    // await this.page.click(this.checkbox.creditHistory);
-    // await this.page.click(this.checkbox.dataProcessing);
-    // await this.page.click(this.checkbox.mobileDataProcessing);
-    // await this.page.click(this.button.sendRequest);
-
+  async orderNewLimitedCard() {
+    await this.click(this.button.orderFirstCard);
+    await this.fill(this.field.income, '100000');
+    await this.click(this.checkbox.creditHistory);
+    await this.click(this.checkbox.dataProcessing);
+    await this.click(this.checkbox.mobileDataProcessing);
+    await this.click(this.button.sendRequest);
     await this.fillOTP();
   }
 }

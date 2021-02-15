@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 9,
+    "retry" : 0
+  }
+} ]

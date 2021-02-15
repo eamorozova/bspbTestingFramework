@@ -1,0 +1,142 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Вклады",
+    "children" : [ {
+      "name" : "Пользователь может открыть вклад",
+      "uid" : "4c739afd2bca21",
+      "parentUid" : "1590d729565de422a6dff1bf51440511",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898497,
+        "stop" : 1613389898503,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1590d729565de422a6dff1bf51440511"
+  }, {
+    "name" : "Карты",
+    "children" : [ {
+      "name" : "Пользователь может оформить новую карту",
+      "uid" : "c26241d46969df5",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898509,
+        "stop" : 1613389898514,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может добавить карту другого банка",
+      "uid" : "22970a0fdd09a576",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898514,
+        "stop" : 1613389898516,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может заблокировать карту",
+      "uid" : "adea684c9ba088e8",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898516,
+        "stop" : 1613389898517,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056"
+  }, {
+    "name" : "Подписки",
+    "children" : [ {
+      "name" : "Пользователь может создать подписку на оплату штрафов",
+      "uid" : "ca27b0ceff3735b6",
+      "parentUid" : "d26cb4301d27135dc7ef066de21b2ffc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898519,
+        "stop" : 1613389898523,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может создать автоплатёж",
+      "uid" : "2aaafa64e9a84f8b",
+      "parentUid" : "d26cb4301d27135dc7ef066de21b2ffc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898523,
+        "stop" : 1613389898525,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d26cb4301d27135dc7ef066de21b2ffc"
+  }, {
+    "name" : "Счета",
+    "children" : [ {
+      "name" : "Пользователь может открыть счёт",
+      "uid" : "6c1ce89bec24b6c1",
+      "parentUid" : "80b61ffd81f7ebb5980bf33c35f7b8f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898526,
+        "stop" : 1613389898528,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может закрыть счёт",
+      "uid" : "7d631932ab0be85f",
+      "parentUid" : "80b61ffd81f7ebb5980bf33c35f7b8f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613389898528,
+        "stop" : 1613389898529,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "80b61ffd81f7ebb5980bf33c35f7b8f9"
+  }, {
+    "name" : "Авторизация",
+    "children" : [ {
+      "name" : "Пользователь может авторизоваться в системе",
+      "uid" : "c21245583963d11b",
+      "parentUid" : "911d5d4f65a7ee6d5e33e51ab0ec70ff",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613389898820,
+        "stop" : 1613389898820,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "911d5d4f65a7ee6d5e33e51ab0ec70ff"
+  } ],
+  "name" : "suites"
+}

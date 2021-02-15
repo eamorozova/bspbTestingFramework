@@ -1,0 +1,91 @@
+[ {
+  "uid" : "147e82bc11c71d4f",
+  "name" : "Пользователь может закрыть счёт",
+  "time" : {
+    "start" : 1613390398764,
+    "stop" : 1613390398765,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d8b24b3470ee665",
+  "name" : "Пользователь может заблокировать карту",
+  "time" : {
+    "start" : 1613390398750,
+    "stop" : 1613390398751,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3228bea810f264",
+  "name" : "Пользователь может оформить новую карту",
+  "time" : {
+    "start" : 1613390398742,
+    "stop" : 1613390398748,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d977b9869bdf6e",
+  "name" : "Пользователь может создать автоплатёж",
+  "time" : {
+    "start" : 1613390398759,
+    "stop" : 1613390398760,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8dfc3d1c914ef35",
+  "name" : "Пользователь может открыть счёт",
+  "time" : {
+    "start" : 1613390398762,
+    "stop" : 1613390398764,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc8324f7591aa227",
+  "name" : "Пользователь может добавить карту другого банка",
+  "time" : {
+    "start" : 1613390398748,
+    "stop" : 1613390398750,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a460fb92cd0f56",
+  "name" : "Пользователь может открыть вклад",
+  "time" : {
+    "start" : 1613390398730,
+    "stop" : 1613390398737,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5920ec45e5c160e0",
+  "name" : "Пользователь может авторизоваться в системе",
+  "time" : {
+    "start" : 1613390399056,
+    "stop" : 1613390399056,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2c2c14990a82fbb0",
+  "name" : "Пользователь может создать подписку на оплату штрафов",
+  "time" : {
+    "start" : 1613390398753,
+    "stop" : 1613390398759,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

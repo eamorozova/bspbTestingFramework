@@ -1,0 +1,69 @@
+{
+  "uid" : "5920ec45e5c160e0",
+  "name" : "Пользователь может авторизоваться в системе",
+  "fullName" : "Авторизация.Пользователь может авторизоваться в системе",
+  "historyId" : "2341fd81dd4d9c7966e2bd3ebd354094",
+  "time" : {
+    "start" : 1613390399056,
+    "stop" : 1613390399056,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testClass",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может авторизоваться в системе"
+  }, {
+    "name" : "package",
+    "value" : "Авторизация"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c21245583963d11b",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/1//#testresult/c21245583963d11b",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613389898820,
+          "stop" : 1613389898820,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5920ec45e5c160e0.json",
+  "parameterValues" : [ ]
+}

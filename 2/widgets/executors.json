@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://eamorozova.github.io/bspbTestingFramework",
+  "buildOrder" : 2,
+  "buildName" : "GitHub Actions Run #568438181",
+  "buildUrl" : "https://github.com/eamorozova/bspbTestingFramework/actions/runs/568438181",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/2/"
+} ]

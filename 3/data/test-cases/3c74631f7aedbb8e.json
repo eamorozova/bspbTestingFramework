@@ -1,0 +1,77 @@
+{
+  "uid" : "3c74631f7aedbb8e",
+  "name" : "Пользователь может закрыть счёт",
+  "fullName" : "Счета.Пользователь может закрыть счёт",
+  "historyId" : "2f377661dd4a0fec72d7513332b72f6",
+  "time" : {
+    "start" : 1613390706397,
+    "stop" : 1613390713788,
+    "duration" : 7391
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Счета"
+  }, {
+    "name" : "testClass",
+    "value" : "Счета"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может закрыть счёт"
+  }, {
+    "name" : "package",
+    "value" : "Счета"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "147e82bc11c71d4f",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/2//#testresult/147e82bc11c71d4f",
+        "status" : "failed",
+        "statusDetails" : "Error: browserType.launch: Protocol error (Browser.getVersion): Browser closed.\n                ==================== Browser output: ====================\n                <launching> /home/runner/.cache/ms-playwright/chromium-844399/chrome-linux/chrome --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=TranslateUI,BlinkGenPropertyTrees,ImprovedCookieControls,SameSiteByDefaultCookies,LazyFrameLoading --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --user-data-dir=/tmp/playwright_chromiumdev_profile-2mAYeX --remote-debugging-pipe --no-sandbox --no-startup-window\n                <launched> pid=4468\n                [err] [4468:4468:0215/115958.694099:ERROR:browser_main_loop.cc(1390)] Unable to open X display.\n                =========================== logs ===========================\n                <launching> /home/runner/.cache/ms-playwright/chromium-844399/chrome-linux/chrome --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=TranslateUI,BlinkGenPropertyTrees,ImprovedCookieControls,SameSiteByDefaultCookies,LazyFrameLoading --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --user-data-dir=/tmp/playwright_chromiumdev_profile-2mAYeX --remote-debugging-pipe --no-sandbox --no-startup-window\n                <launched> pid=4468\n                [err] [4468:4468:0215/115958.694099:ERROR:browser_main_loop.cc(1390)] Unable to open X display.\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+        "time" : {
+          "start" : 1613390398764,
+          "stop" : 1613390398765,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7d631932ab0be85f",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/1//#testresult/7d631932ab0be85f",
+        "status" : "failed",
+        "statusDetails" : "Error: browserType.launch: Protocol error (Browser.getVersion): Browser closed.\n                ==================== Browser output: ====================\n                <launching> /home/runner/.cache/ms-playwright/chromium-844399/chrome-linux/chrome --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=TranslateUI,BlinkGenPropertyTrees,ImprovedCookieControls,SameSiteByDefaultCookies,LazyFrameLoading --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --user-data-dir=/tmp/playwright_chromiumdev_profile-4crZYx --remote-debugging-pipe --no-sandbox --no-startup-window\n                <launched> pid=4439\n                [err] [4439:4439:0215/115138.476178:ERROR:browser_main_loop.cc(1390)] Unable to open X display.\n                =========================== logs ===========================\n                <launching> /home/runner/.cache/ms-playwright/chromium-844399/chrome-linux/chrome --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=TranslateUI,BlinkGenPropertyTrees,ImprovedCookieControls,SameSiteByDefaultCookies,LazyFrameLoading --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --user-data-dir=/tmp/playwright_chromiumdev_profile-4crZYx --remote-debugging-pipe --no-sandbox --no-startup-window\n                <launched> pid=4439\n                [err] [4439:4439:0215/115138.476178:ERROR:browser_main_loop.cc(1390)] Unable to open X display.\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+        "time" : {
+          "start" : 1613389898528,
+          "stop" : 1613389898529,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c74631f7aedbb8e.json",
+  "parameterValues" : [ ]
+}

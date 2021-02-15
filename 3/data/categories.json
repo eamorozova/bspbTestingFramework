@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"text=\"Заблокировать\"\"\n                  selector resolved to hidden <span class=\"link-title\">Заблокировать</span>\n                attempting click action\n                  waiting for element to be visible, enabled and not moving\n                    element is not visible - waiting...\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+      "children" : [ {
+        "name" : "Пользователь может заблокировать карту",
+        "uid" : "c6faeaa1dddb6e1a",
+        "parentUid" : "54be1c54f0c30e56802110b22767aec5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613390650245,
+          "stop" : 1613390684365,
+          "duration" : 34120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54be1c54f0c30e56802110b22767aec5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

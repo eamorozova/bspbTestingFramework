@@ -1,0 +1,142 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Вклады",
+    "children" : [ {
+      "name" : "Пользователь может открыть вклад",
+      "uid" : "246b5e20384f9b8d",
+      "parentUid" : "82e960edba7595d22dc9290720dad3ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642828843,
+        "stop" : 1613642834657,
+        "duration" : 5814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "82e960edba7595d22dc9290720dad3ff"
+  }, {
+    "name" : "Карты",
+    "children" : [ {
+      "name" : "Пользователь может оформить новую карту",
+      "uid" : "b05e3834d0c63c89",
+      "parentUid" : "15fba9623e2fcf8489fc839a442c727a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642834663,
+        "stop" : 1613642858063,
+        "duration" : 23400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может добавить карту другого банка",
+      "uid" : "5de54b36a2f0e511",
+      "parentUid" : "15fba9623e2fcf8489fc839a442c727a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642858063,
+        "stop" : 1613642864811,
+        "duration" : 6748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может заблокировать карту",
+      "uid" : "9d815cc2ea822fbe",
+      "parentUid" : "15fba9623e2fcf8489fc839a442c727a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642864811,
+        "stop" : 1613642870507,
+        "duration" : 5696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15fba9623e2fcf8489fc839a442c727a"
+  }, {
+    "name" : "Подписки",
+    "children" : [ {
+      "name" : "Пользователь может создать подписку на оплату штрафов",
+      "uid" : "6074c7378cf73aee",
+      "parentUid" : "ae5eff6d80a206c10bc5345d944f1b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642870513,
+        "stop" : 1613642875419,
+        "duration" : 4906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может создать автоплатёж",
+      "uid" : "7cc05b052b9249ad",
+      "parentUid" : "ae5eff6d80a206c10bc5345d944f1b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642875419,
+        "stop" : 1613642882883,
+        "duration" : 7464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae5eff6d80a206c10bc5345d944f1b90"
+  }, {
+    "name" : "Счета",
+    "children" : [ {
+      "name" : "Пользователь может открыть счёт",
+      "uid" : "7d9c9651c44a3cf",
+      "parentUid" : "9f99791d9bf6fe10bf64b1e775271330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642882886,
+        "stop" : 1613642887870,
+        "duration" : 4984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может закрыть счёт",
+      "uid" : "f82d7dfec6402f66",
+      "parentUid" : "9f99791d9bf6fe10bf64b1e775271330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613642887871,
+        "stop" : 1613642892906,
+        "duration" : 5035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f99791d9bf6fe10bf64b1e775271330"
+  }, {
+    "name" : "Авторизация",
+    "children" : [ {
+      "name" : "Пользователь может авторизоваться в системе",
+      "uid" : "d1f55880e3039856",
+      "parentUid" : "6ba2e2814aff526cd2b16e0459c2e7f1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613642893438,
+        "stop" : 1613642893438,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6ba2e2814aff526cd2b16e0459c2e7f1"
+  } ],
+  "name" : "packages"
+}

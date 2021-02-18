@@ -1,0 +1,89 @@
+{
+  "uid" : "d1f55880e3039856",
+  "name" : "Пользователь может авторизоваться в системе",
+  "fullName" : "Авторизация.Пользователь может авторизоваться в системе",
+  "historyId" : "2341fd81dd4d9c7966e2bd3ebd354094",
+  "time" : {
+    "start" : 1613642893438,
+    "stop" : 1613642893438,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testClass",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может авторизоваться в системе"
+  }, {
+    "name" : "package",
+    "value" : "Авторизация"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "337165d73ced6d16",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/3//#testresult/337165d73ced6d16",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613390714258,
+          "stop" : 1613390714258,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5920ec45e5c160e0",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/2//#testresult/5920ec45e5c160e0",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613390399056,
+          "stop" : 1613390399056,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c21245583963d11b",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/1//#testresult/c21245583963d11b",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613389898820,
+          "stop" : 1613389898820,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d1f55880e3039856.json",
+  "parameterValues" : [ ]
+}

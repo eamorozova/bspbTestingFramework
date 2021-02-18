@@ -1,0 +1,122 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Пользователь может добавить карту другого банка",
+    "uid" : "5de54b36a2f0e511",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642858063,
+      "stop" : 1613642864811,
+      "duration" : 6748
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может оформить новую карту",
+    "uid" : "b05e3834d0c63c89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642834663,
+      "stop" : 1613642858063,
+      "duration" : 23400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может открыть счёт",
+    "uid" : "7d9c9651c44a3cf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642882886,
+      "stop" : 1613642887870,
+      "duration" : 4984
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может закрыть счёт",
+    "uid" : "f82d7dfec6402f66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642887871,
+      "stop" : 1613642892906,
+      "duration" : 5035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может открыть вклад",
+    "uid" : "246b5e20384f9b8d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642828843,
+      "stop" : 1613642834657,
+      "duration" : 5814
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может создать автоплатёж",
+    "uid" : "7cc05b052b9249ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642875419,
+      "stop" : 1613642882883,
+      "duration" : 7464
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может заблокировать карту",
+    "uid" : "9d815cc2ea822fbe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642864811,
+      "stop" : 1613642870507,
+      "duration" : 5696
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может создать подписку на оплату штрафов",
+    "uid" : "6074c7378cf73aee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613642870513,
+      "stop" : 1613642875419,
+      "duration" : 4906
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может авторизоваться в системе",
+    "uid" : "d1f55880e3039856",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1613642893438,
+      "stop" : 1613642893438,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}

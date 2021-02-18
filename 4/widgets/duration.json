@@ -1,0 +1,91 @@
+[ {
+  "uid" : "6074c7378cf73aee",
+  "name" : "Пользователь может создать подписку на оплату штрафов",
+  "time" : {
+    "start" : 1613642870513,
+    "stop" : 1613642875419,
+    "duration" : 4906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cc05b052b9249ad",
+  "name" : "Пользователь может создать автоплатёж",
+  "time" : {
+    "start" : 1613642875419,
+    "stop" : 1613642882883,
+    "duration" : 7464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d9c9651c44a3cf",
+  "name" : "Пользователь может открыть счёт",
+  "time" : {
+    "start" : 1613642882886,
+    "stop" : 1613642887870,
+    "duration" : 4984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f55880e3039856",
+  "name" : "Пользователь может авторизоваться в системе",
+  "time" : {
+    "start" : 1613642893438,
+    "stop" : 1613642893438,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "246b5e20384f9b8d",
+  "name" : "Пользователь может открыть вклад",
+  "time" : {
+    "start" : 1613642828843,
+    "stop" : 1613642834657,
+    "duration" : 5814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d815cc2ea822fbe",
+  "name" : "Пользователь может заблокировать карту",
+  "time" : {
+    "start" : 1613642864811,
+    "stop" : 1613642870507,
+    "duration" : 5696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f82d7dfec6402f66",
+  "name" : "Пользователь может закрыть счёт",
+  "time" : {
+    "start" : 1613642887871,
+    "stop" : 1613642892906,
+    "duration" : 5035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5de54b36a2f0e511",
+  "name" : "Пользователь может добавить карту другого банка",
+  "time" : {
+    "start" : 1613642858063,
+    "stop" : 1613642864811,
+    "duration" : 6748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b05e3834d0c63c89",
+  "name" : "Пользователь может оформить новую карту",
+  "time" : {
+    "start" : 1613642834663,
+    "stop" : 1613642858063,
+    "duration" : 23400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

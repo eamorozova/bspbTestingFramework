@@ -1,29 +1,3 @@
 [ {
-  "buildOrder" : 4,
-  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/4/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 64595
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 90979
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/2/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 326
-  }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/1/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 323
-  }
+  "data" : { }
 } ]

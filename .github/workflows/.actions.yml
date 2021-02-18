@@ -2,7 +2,7 @@ name: CI
 on: [push]
 jobs:
   autotests:
-    name: Run tests and generate Allure report
+    name: Run tests 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,11 +15,19 @@ jobs:
       - name: Install dependencies
         if: always()
         run: npm install
+        
       - name: Run Test
         if: always()
         run: npm test
         continue-on-error: true
 
+  reporting:
+    name: Generate Allure report
+    runs-on: ubuntu-latest
+    needs: autotests
+    steps:
+      - uses: actions/checkout@v2
+      
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
@@ -46,7 +54,12 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
-      - name: Report to Telegram
+  telegram:
+    name: Post to Telegram
+    runs-on: ubuntu-latest
+    needs: reporting
+    steps:
+      - name: Send message to Telegram
         if: always()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

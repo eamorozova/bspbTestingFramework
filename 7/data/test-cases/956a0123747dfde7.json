@@ -1,0 +1,48 @@
+{
+  "uid" : "956a0123747dfde7",
+  "name" : "Пользователь может авторизоваться в системе",
+  "fullName" : "Авторизация.Пользователь может авторизоваться в системе",
+  "historyId" : "2341fd81dd4d9c7966e2bd3ebd354094",
+  "time" : {
+    "start" : 1613675141577,
+    "stop" : 1613675141578,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testClass",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может авторизоваться в системе"
+  }, {
+    "name" : "package",
+    "value" : "Авторизация"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "956a0123747dfde7.json",
+  "parameterValues" : [ ]
+}

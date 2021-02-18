@@ -1,0 +1,46 @@
+{
+  "uid" : "db019f0702b80a17",
+  "name" : "Пользователь может открыть вклад",
+  "fullName" : "Вклады.Пользователь может открыть вклад",
+  "historyId" : "cfc423197217358946b52fcc1c7be11d",
+  "time" : {
+    "start" : 1613675047325,
+    "stop" : 1613675053682,
+    "duration" : 6357
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Вклады"
+  }, {
+    "name" : "testClass",
+    "value" : "Вклады"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может открыть вклад"
+  }, {
+    "name" : "package",
+    "value" : "Вклады"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db019f0702b80a17.json",
+  "parameterValues" : [ ]
+}

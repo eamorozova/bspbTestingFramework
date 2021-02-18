@@ -1,0 +1,46 @@
+{
+  "uid" : "591b78bcaf9efc4e",
+  "name" : "Пользователь может создать автоплатёж",
+  "fullName" : "Подписки.Пользователь может создать автоплатёж",
+  "historyId" : "bbbded2294592c12c128dceaf6681db2",
+  "time" : {
+    "start" : 1613675094767,
+    "stop" : 1613675102330,
+    "duration" : 7563
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Подписки"
+  }, {
+    "name" : "testClass",
+    "value" : "Подписки"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может создать автоплатёж"
+  }, {
+    "name" : "package",
+    "value" : "Подписки"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "591b78bcaf9efc4e.json",
+  "parameterValues" : [ ]
+}

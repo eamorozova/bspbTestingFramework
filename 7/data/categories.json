@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//td[starts-with(text(),\"0.00\")]/following-sibling::td//button\"\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+      "children" : [ {
+        "name" : "Пользователь может закрыть счёт",
+        "uid" : "55382b2e47a52e5b",
+        "parentUid" : "ee9bc9498c3b477bfefe5bfd177f0f78",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613675108281,
+          "stop" : 1613675140954,
+          "duration" : 32673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee9bc9498c3b477bfefe5bfd177f0f78"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

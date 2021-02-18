@@ -1,0 +1,46 @@
+{
+  "uid" : "45151c3c9669687a",
+  "name" : "Пользователь может оформить новую карту",
+  "fullName" : "Карты.Пользователь может оформить новую карту",
+  "historyId" : "7605534652e4b3bd973759a9546613a8",
+  "time" : {
+    "start" : 1613675053688,
+    "stop" : 1613675077843,
+    "duration" : 24155
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может оформить новую карту"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45151c3c9669687a.json",
+  "parameterValues" : [ ]
+}

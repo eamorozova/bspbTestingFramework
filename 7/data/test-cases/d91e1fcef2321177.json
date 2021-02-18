@@ -1,0 +1,46 @@
+{
+  "uid" : "d91e1fcef2321177",
+  "name" : "Пользователь может создать подписку на оплату штрафов",
+  "fullName" : "Подписки.Пользователь может создать подписку на оплату штрафов",
+  "historyId" : "b9532f0dc0b7fe2ae56f10b0388b76e3",
+  "time" : {
+    "start" : 1613675089805,
+    "stop" : 1613675094767,
+    "duration" : 4962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Подписки"
+  }, {
+    "name" : "testClass",
+    "value" : "Подписки"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может создать подписку на оплату штрафов"
+  }, {
+    "name" : "package",
+    "value" : "Подписки"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d91e1fcef2321177.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "55382b2e47a52e5b",
+  "name" : "Пользователь может закрыть счёт",
+  "fullName" : "Счета.Пользователь может закрыть счёт",
+  "historyId" : "2f377661dd4a0fec72d7513332b72f6",
+  "time" : {
+    "start" : 1613675108281,
+    "stop" : 1613675140954,
+    "duration" : 32673
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//td[starts-with(text(),\"0.00\")]/following-sibling::td//button\"\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+  "statusTrace" : "page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//td[starts-with(text(),\"0.00\")]/following-sibling::td//button\"\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.: \n                    at Connection.sendMessageToServer (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/connection.js:69:15)\n                    at Proxy.<anonymous> (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/channelOwner.js:44:61)\n                    at /home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/frame.js:257:40\n                    at Frame._wrapApiCall (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/channelOwner.js:72:34)\n                    at Frame.click (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/frame.js:256:21)\n                    at /home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:406:60\n                    at Page._attributeToPage (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:205:20)\n                    at Page.click (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:406:21)\n                    at AccountsPage.click (/home/runner/work/bspbTestingFramework/bspbTestingFramework/framework/pages/base.page.js:7:21)\n                    at AccountsPage.closeAccount (/home/runner/work/bspbTestingFramework/bspbTestingFramework/framework/pages/accounts.page.js:27:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Счета"
+  }, {
+    "name" : "testClass",
+    "value" : "Счета"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может закрыть счёт"
+  }, {
+    "name" : "package",
+    "value" : "Счета"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "55382b2e47a52e5b.json",
+  "parameterValues" : [ ]
+}

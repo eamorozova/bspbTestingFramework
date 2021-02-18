@@ -1,0 +1,46 @@
+{
+  "uid" : "68dd22d77d98ee60",
+  "name" : "Пользователь может добавить карту другого банка",
+  "fullName" : "Карты.Пользователь может добавить карту другого банка",
+  "historyId" : "adf32fca289f9137a658f299b159745d",
+  "time" : {
+    "start" : 1613675077843,
+    "stop" : 1613675084393,
+    "duration" : 6550
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может добавить карту другого банка"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68dd22d77d98ee60.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid" : "7246f27ddc54104",
+  "name" : "Пользователь может заблокировать карту",
+  "fullName" : "Карты.Пользователь может заблокировать карту",
+  "historyId" : "3deed9414ecc69269c49204a79f3bd07",
+  "time" : {
+    "start" : 1613675084393,
+    "stop" : 1613675089798,
+    "duration" : 5405
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может заблокировать карту"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7246f27ddc54104.json",
+  "parameterValues" : [ ]
+}

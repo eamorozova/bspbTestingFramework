@@ -14,6 +14,7 @@ export class CardsPage extends BasePage {
       orderOtherBankCard: '#other-bank-card-bind',
       saveOtherCard: '#bind-card',
       sendRequest: '#inspect',
+      unblockCard: '.card-unblock',
     };
 
     this.checkbox = {
@@ -63,10 +64,9 @@ export class CardsPage extends BasePage {
     return element;
   }
 
-  // TODO: выбор первого в списке
   async orderNewCard() {
     await this.click(this.button.orderFirstCard);
-    await this.page.selectOption(this.select.office, { label: 'Центральный: 197374, г. Сланцы, пр. Космонавтов, д. 100A' });
+    await this.page.selectOption(this.select.office, { index: 1 });
     await this.click(this.button.orderNewCard2);
     await this.fillOTP();
   }
@@ -78,6 +78,11 @@ export class CardsPage extends BasePage {
     await this.click(this.checkbox.dataProcessing);
     await this.click(this.checkbox.mobileDataProcessing);
     await this.click(this.button.sendRequest);
+    await this.fillOTP();
+  }
+
+  async unblockCard() {
+    await this.click(this.button.unblockCard);
     await this.fillOTP();
   }
 }

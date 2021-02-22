@@ -66,6 +66,12 @@ describe('Карты', () => {
     const text = await pageProvider(page).cards().getSuccessText();
     expect(text).toBeTruthy();
   });
+
+  test('Пользователь может разблокировать карту', async () => {
+    await pageProvider(page).cards().unblockCard();
+    const text = await pageProvider(page).cards().getSuccessText();
+    expect(text).toBeTruthy();
+  });
 });
 
 describe('Подписки', () => {

@@ -1,5 +1,6 @@
 function randomNumber(digits) {
-  return Math.floor(Math.random() * 10 ** digits).toString();
+  const helper = 10 ** digits * 0.9 - 1;
+  return Math.floor(Math.random() * helper + 10 ** (digits - 1)).toString();
 }
 
 function randomMonth() {

@@ -1,0 +1,72 @@
+{
+  "uid" : "b8ea3856c4274a69",
+  "name" : "Пользователь может добавить карту другого банка",
+  "fullName" : "Карты.Пользователь может добавить карту другого банка",
+  "historyId" : "adf32fca289f9137a658f299b159745d",
+  "time" : {
+    "start" : 1613985203028,
+    "stop" : 1613985237563,
+    "duration" : 34535
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#confirmation-frame\" to be visible\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+  "statusTrace" : "page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#confirmation-frame\" to be visible\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.: \n                    at Connection.sendMessageToServer (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/connection.js:69:15)\n                    at Proxy.<anonymous> (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/channelOwner.js:44:61)\n                    at /home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/frame.js:180:48\n                    at Frame._wrapApiCall (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/channelOwner.js:72:34)\n                    at Frame.waitForSelector (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/frame.js:175:21)\n                    at /home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:215:60\n                    at Page._attributeToPage (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:205:20)\n                    at Page.waitForSelector (/home/runner/work/bspbTestingFramework/bspbTestingFramework/node_modules/playwright/lib/client/page.js:215:21)\n                    at CardsPage.fillOTP (/home/runner/work/bspbTestingFramework/bspbTestingFramework/framework/pages/base.page.js:16:21)\n                    at CardsPage.addOtherBankCard (/home/runner/work/bspbTestingFramework/bspbTestingFramework/framework/pages/cards.page.js:47:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может добавить карту другого банка"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "68dd22d77d98ee60",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/68dd22d77d98ee60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675077843,
+          "stop" : 1613675084393,
+          "duration" : 6550
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b8ea3856c4274a69.json",
+  "parameterValues" : [ ]
+}

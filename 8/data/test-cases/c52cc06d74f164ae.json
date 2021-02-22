@@ -1,0 +1,46 @@
+{
+  "uid" : "c52cc06d74f164ae",
+  "name" : "Пользователь может получить кредит",
+  "fullName" : "Кредиты.Пользователь может получить кредит",
+  "historyId" : "d6165421646dbdb82110b6cf779320a",
+  "time" : {
+    "start" : 1613985267117,
+    "stop" : 1613985272787,
+    "duration" : 5670
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Кредиты"
+  }, {
+    "name" : "testClass",
+    "value" : "Кредиты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может получить кредит"
+  }, {
+    "name" : "package",
+    "value" : "Кредиты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c52cc06d74f164ae.json",
+  "parameterValues" : [ ]
+}

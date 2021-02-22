@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#confirmation-frame\" to be visible\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+      "children" : [ {
+        "name" : "Пользователь может добавить карту другого банка",
+        "uid" : "b8ea3856c4274a69",
+        "parentUid" : "9f01444057b05c9539be14159bd53500",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613985203028,
+          "stop" : 1613985237563,
+          "duration" : 34535
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f01444057b05c9539be14159bd53500"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "30092c4e840bbaab",
+  "name" : "Пользователь может открыть счёт",
+  "fullName" : "Счета.Пользователь может открыть счёт",
+  "historyId" : "2f6dbf8ab143a6566aa5141fbd703052",
+  "time" : {
+    "start" : 1613985256621,
+    "stop" : 1613985261195,
+    "duration" : 4574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Счета"
+  }, {
+    "name" : "testClass",
+    "value" : "Счета"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может открыть счёт"
+  }, {
+    "name" : "package",
+    "value" : "Счета"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e0933bc8d82a6bf8",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/e0933bc8d82a6bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675102332,
+          "stop" : 1613675108281,
+          "duration" : 5949
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "30092c4e840bbaab.json",
+  "parameterValues" : [ ]
+}

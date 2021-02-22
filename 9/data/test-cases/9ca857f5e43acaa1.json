@@ -1,0 +1,75 @@
+{
+  "uid" : "9ca857f5e43acaa1",
+  "name" : "Пользователь может создать автоплатёж",
+  "fullName" : "Подписки.Пользователь может создать автоплатёж",
+  "historyId" : "bbbded2294592c12c128dceaf6681db2",
+  "time" : {
+    "start" : 1613996539747,
+    "stop" : 1613996548991,
+    "duration" : 9244
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Подписки"
+  }, {
+    "name" : "testClass",
+    "value" : "Подписки"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может создать автоплатёж"
+  }, {
+    "name" : "package",
+    "value" : "Подписки"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fee06660a5eac11b",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/fee06660a5eac11b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985249044,
+          "stop" : 1613985256618,
+          "duration" : 7574
+        }
+      }, {
+        "uid" : "591b78bcaf9efc4e",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/591b78bcaf9efc4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675094767,
+          "stop" : 1613675102330,
+          "duration" : 7563
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9ca857f5e43acaa1.json",
+  "parameterValues" : [ ]
+}

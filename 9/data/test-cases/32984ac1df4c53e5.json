@@ -1,0 +1,46 @@
+{
+  "uid" : "32984ac1df4c53e5",
+  "name" : "Пользователь может разблокировать карту",
+  "fullName" : "Карты.Пользователь может разблокировать карту",
+  "historyId" : "891a6f3d3b801c7ed8900446915ae32c",
+  "time" : {
+    "start" : 1613996526354,
+    "stop" : 1613996532599,
+    "duration" : 6245
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может разблокировать карту"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32984ac1df4c53e5.json",
+  "parameterValues" : [ ]
+}

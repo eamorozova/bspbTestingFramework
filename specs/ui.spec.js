@@ -113,3 +113,20 @@ describe('Счета', () => {
     expect(text).toBeTruthy();
   });
 });
+
+describe('Кредиты', () => {
+  beforeEach(async () => {
+    await runNewContext();
+    page = await goto('https://idemo.bspb.ru/loans');
+  });
+
+  afterEach(async () => {
+    await stop();
+  });
+
+  test('Пользователь может получить кредит', async () => {
+    await pageProvider(page).loans().getLoan();
+    const text = await pageProvider(page).loans().getSuccessText();
+    expect(text).toBeTruthy();
+  });
+});

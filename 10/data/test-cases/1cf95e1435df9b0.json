@@ -1,0 +1,84 @@
+{
+  "uid" : "1cf95e1435df9b0",
+  "name" : "Пользователь может создать подписку на оплату штрафов",
+  "fullName" : "Подписки.Пользователь может создать подписку на оплату штрафов",
+  "historyId" : "b9532f0dc0b7fe2ae56f10b0388b76e3",
+  "time" : {
+    "start" : 1614336978835,
+    "stop" : 1614336986113,
+    "duration" : 7278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Подписки"
+  }, {
+    "name" : "testClass",
+    "value" : "Подписки"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может создать подписку на оплату штрафов"
+  }, {
+    "name" : "package",
+    "value" : "Подписки"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8daf87f20c96b194",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/8daf87f20c96b194",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996532606,
+          "stop" : 1613996539747,
+          "duration" : 7141
+        }
+      }, {
+        "uid" : "4946c705ba6ba8af",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/4946c705ba6ba8af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985243902,
+          "stop" : 1613985249044,
+          "duration" : 5142
+        }
+      }, {
+        "uid" : "d91e1fcef2321177",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/d91e1fcef2321177",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675089805,
+          "stop" : 1613675094767,
+          "duration" : 4962
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1cf95e1435df9b0.json",
+  "parameterValues" : [ ]
+}

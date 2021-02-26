@@ -1,0 +1,85 @@
+{
+  "uid" : "e05b22a7b95617ce",
+  "name" : "Пользователь может добавить карту другого банка",
+  "fullName" : "Карты.Пользователь может добавить карту другого банка",
+  "historyId" : "adf32fca289f9137a658f299b159745d",
+  "time" : {
+    "start" : 1614336952469,
+    "stop" : 1614336962857,
+    "duration" : 10388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может добавить карту другого банка"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1004e7b82b0c7179",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/1004e7b82b0c7179",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996511599,
+          "stop" : 1613996519499,
+          "duration" : 7900
+        }
+      }, {
+        "uid" : "b8ea3856c4274a69",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/b8ea3856c4274a69",
+        "status" : "failed",
+        "statusDetails" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#confirmation-frame\" to be visible\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+        "time" : {
+          "start" : 1613985203028,
+          "stop" : 1613985237563,
+          "duration" : 34535
+        }
+      }, {
+        "uid" : "68dd22d77d98ee60",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/68dd22d77d98ee60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675077843,
+          "stop" : 1613675084393,
+          "duration" : 6550
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e05b22a7b95617ce.json",
+  "parameterValues" : [ ]
+}

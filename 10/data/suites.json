@@ -1,0 +1,172 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Карты",
+    "children" : [ {
+      "name" : "Пользователь может оформить новую карту",
+      "uid" : "dfa439ce2ce643bc",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336940010,
+        "stop" : 1614336952469,
+        "duration" : 12459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может добавить карту другого банка",
+      "uid" : "e05b22a7b95617ce",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336952469,
+        "stop" : 1614336962857,
+        "duration" : 10388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может заблокировать карту",
+      "uid" : "c0d7bf28b2a60e11",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336962857,
+        "stop" : 1614336971209,
+        "duration" : 8352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может разблокировать карту",
+      "uid" : "7195813b0baa15d9",
+      "parentUid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336971209,
+        "stop" : 1614336978604,
+        "duration" : 7395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2e508cbe5cc42fa5d74a4d8f9a9b9056"
+  }, {
+    "name" : "Подписки",
+    "children" : [ {
+      "name" : "Пользователь может создать подписку на оплату штрафов",
+      "uid" : "1cf95e1435df9b0",
+      "parentUid" : "d26cb4301d27135dc7ef066de21b2ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336978835,
+        "stop" : 1614336986113,
+        "duration" : 7278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может создать автоплатёж",
+      "uid" : "e8c98622704a0252",
+      "parentUid" : "d26cb4301d27135dc7ef066de21b2ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336986113,
+        "stop" : 1614336996478,
+        "duration" : 10365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d26cb4301d27135dc7ef066de21b2ffc"
+  }, {
+    "name" : "Счета",
+    "children" : [ {
+      "name" : "Пользователь может открыть счёт",
+      "uid" : "93550e6cc270d4ea",
+      "parentUid" : "80b61ffd81f7ebb5980bf33c35f7b8f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614336996709,
+        "stop" : 1614337003274,
+        "duration" : 6565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может закрыть счёт",
+      "uid" : "4ca784a8bf48a3d1",
+      "parentUid" : "80b61ffd81f7ebb5980bf33c35f7b8f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614337003275,
+        "stop" : 1614337010748,
+        "duration" : 7473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "80b61ffd81f7ebb5980bf33c35f7b8f9"
+  }, {
+    "name" : "Вклады",
+    "children" : [ {
+      "name" : "Пользователь может открыть вклад",
+      "uid" : "e21d34da492cb269",
+      "parentUid" : "1590d729565de422a6dff1bf51440511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614337010962,
+        "stop" : 1614337020769,
+        "duration" : 9807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1590d729565de422a6dff1bf51440511"
+  }, {
+    "name" : "Кредиты",
+    "children" : [ {
+      "name" : "Пользователь может получить кредит",
+      "uid" : "59328600da00184a",
+      "parentUid" : "866c835b1bb152d3dbb3b6500c0d0e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614337020966,
+        "stop" : 1614337029934,
+        "duration" : 8968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "866c835b1bb152d3dbb3b6500c0d0e19"
+  }, {
+    "name" : "Авторизация",
+    "children" : [ {
+      "name" : "Пользователь может авторизоваться в системе",
+      "uid" : "374818ab6320f1b8",
+      "parentUid" : "911d5d4f65a7ee6d5e33e51ab0ec70ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614337030217,
+        "stop" : 1614337035685,
+        "duration" : 5468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "911d5d4f65a7ee6d5e33e51ab0ec70ff"
+  } ],
+  "name" : "suites"
+}

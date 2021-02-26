@@ -1,0 +1,66 @@
+{
+  "uid" : "7195813b0baa15d9",
+  "name" : "Пользователь может разблокировать карту",
+  "fullName" : "Карты.Пользователь может разблокировать карту",
+  "historyId" : "891a6f3d3b801c7ed8900446915ae32c",
+  "time" : {
+    "start" : 1614336971209,
+    "stop" : 1614336978604,
+    "duration" : 7395
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может разблокировать карту"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "32984ac1df4c53e5",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/32984ac1df4c53e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996526354,
+          "stop" : 1613996532599,
+          "duration" : 6245
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7195813b0baa15d9.json",
+  "parameterValues" : [ ]
+}

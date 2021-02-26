@@ -1,0 +1,87 @@
+{
+  "uid" : "374818ab6320f1b8",
+  "name" : "Пользователь может авторизоваться в системе",
+  "fullName" : "Авторизация.Пользователь может авторизоваться в системе",
+  "historyId" : "2341fd81dd4d9c7966e2bd3ebd354094",
+  "time" : {
+    "start" : 1614337030217,
+    "stop" : 1614337035685,
+    "duration" : 5468
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testClass",
+    "value" : "Авторизация"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может авторизоваться в системе"
+  }, {
+    "name" : "package",
+    "value" : "Авторизация"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "35931facef64ef8b",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/35931facef64ef8b",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613996568721,
+          "stop" : 1613996568721,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "64b5aefadc35139d",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/64b5aefadc35139d",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613985273311,
+          "stop" : 1613985273311,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "956a0123747dfde7",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/956a0123747dfde7",
+        "status" : "skipped",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1613675141577,
+          "stop" : 1613675141578,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "374818ab6320f1b8.json",
+  "parameterValues" : [ ]
+}

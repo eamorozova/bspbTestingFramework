@@ -1,0 +1,84 @@
+{
+  "uid" : "dfa439ce2ce643bc",
+  "name" : "Пользователь может оформить новую карту",
+  "fullName" : "Карты.Пользователь может оформить новую карту",
+  "historyId" : "7605534652e4b3bd973759a9546613a8",
+  "time" : {
+    "start" : 1614336940010,
+    "stop" : 1614336952469,
+    "duration" : 12459
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Карты"
+  }, {
+    "name" : "testClass",
+    "value" : "Карты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может оформить новую карту"
+  }, {
+    "name" : "package",
+    "value" : "Карты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6def51d11548ef4a",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/6def51d11548ef4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996484009,
+          "stop" : 1613996511599,
+          "duration" : 27590
+        }
+      }, {
+        "uid" : "c6bb3764faccf48c",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/c6bb3764faccf48c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985179537,
+          "stop" : 1613985203028,
+          "duration" : 23491
+        }
+      }, {
+        "uid" : "45151c3c9669687a",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/45151c3c9669687a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675053688,
+          "stop" : 1613675077843,
+          "duration" : 24155
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dfa439ce2ce643bc.json",
+  "parameterValues" : [ ]
+}

@@ -21,7 +21,14 @@ export class BasePage {
   }
 
   async getSuccessText() {
-    const text = await this.page.waitForSelector('//div[@class="alert alert-success"]');
+    const text = await this.page.textContent('//div[@class="alert alert-success"]');
     return text;
+  }
+
+  async scrollElement(selector) {
+    await this.page.$eval(selector, (element) => {
+      const height = element.scrollHeight;
+      element.scrollTo(0, height);
+    });
   }
 }

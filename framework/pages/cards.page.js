@@ -1,5 +1,5 @@
 import { BasePage } from './base.page';
-import { randomMonth, randomNumber, randomYear } from '../config/randomNumber.config';
+import { Card } from '../builder';
 
 export class CardsPage extends BasePage {
   constructor(page) {
@@ -39,11 +39,12 @@ export class CardsPage extends BasePage {
   }
 
   async addOtherBankCard() {
+    const otherCard = new Card();
     await this.click(this.button.orderOtherBankCard);
-    await this.fill(this.field.cardNumber, randomNumber(16));
-    await this.fill(this.field.cardMonth, randomMonth());
-    await this.fill(this.field.cardYear, randomYear());
-    await this.fill(this.field.cardCVV, randomNumber(3));
+    await this.fill(this.field.cardNumber, otherCard.number);
+    await this.fill(this.field.cardMonth, otherCard.month);
+    await this.fill(this.field.cardYear, otherCard.year);
+    await this.fill(this.field.cardCVV, otherCard.CVV);
     await this.click(this.button.saveOtherCard);
     await this.fillOTP();
   }

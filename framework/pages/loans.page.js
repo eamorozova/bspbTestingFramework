@@ -54,11 +54,4 @@ export class LoansPage extends BasePage {
     const text = await this.page.waitForSelector(this.field.successText);
     return text;
   }
-
-  async scrollElement(selector) {
-    await this.page.$eval(selector, (element) => {
-      const height = element.scrollHeight;
-      element.scrollTo(0, height);
-    });
-  }
 }

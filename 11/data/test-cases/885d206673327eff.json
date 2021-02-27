@@ -1,0 +1,94 @@
+{
+  "uid" : "885d206673327eff",
+  "name" : "Пользователь может закрыть счёт",
+  "fullName" : "Счета.Пользователь может закрыть счёт",
+  "historyId" : "2f377661dd4a0fec72d7513332b72f6",
+  "time" : {
+    "start" : 1614419967317,
+    "stop" : 1614419975883,
+    "duration" : 8566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Счета"
+  }, {
+    "name" : "testClass",
+    "value" : "Счета"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может закрыть счёт"
+  }, {
+    "name" : "package",
+    "value" : "Счета"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4ca784a8bf48a3d1",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/10//#testresult/4ca784a8bf48a3d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614337003275,
+          "stop" : 1614337010748,
+          "duration" : 7473
+        }
+      }, {
+        "uid" : "ecf65133d0ef9d33",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/ecf65133d0ef9d33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996554107,
+          "stop" : 1613996561022,
+          "duration" : 6915
+        }
+      }, {
+        "uid" : "3beec9b4279958f9",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/3beec9b4279958f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985261195,
+          "stop" : 1613985267114,
+          "duration" : 5919
+        }
+      }, {
+        "uid" : "55382b2e47a52e5b",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/55382b2e47a52e5b",
+        "status" : "failed",
+        "statusDetails" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//td[starts-with(text(),\"0.00\")]/following-sibling::td//button\"\n                ============================================================\n                Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.",
+        "time" : {
+          "start" : 1613675108281,
+          "stop" : 1613675140954,
+          "duration" : 32673
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "885d206673327eff.json",
+  "parameterValues" : [ ]
+}

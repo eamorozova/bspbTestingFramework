@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Пользователь может оформить новую карту",
+    "uid" : "def48460f94d35ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419891869,
+      "stop" : 1614419911348,
+      "duration" : 19479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может добавить карту другого банка",
+    "uid" : "fd0df5d7b8aa4846",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419911348,
+      "stop" : 1614419922432,
+      "duration" : 11084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может заблокировать карту",
+    "uid" : "4a2c8e802bd02452",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419922432,
+      "stop" : 1614419931481,
+      "duration" : 9049
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может разблокировать карту",
+    "uid" : "9a84430a10e7fab0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419931481,
+      "stop" : 1614419939877,
+      "duration" : 8396
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может создать подписку на оплату штрафов",
+    "uid" : "1845a2b7bad39aa5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419940449,
+      "stop" : 1614419948355,
+      "duration" : 7906
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может создать автоплатёж",
+    "uid" : "986d4d2a683143c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419948355,
+      "stop" : 1614419959889,
+      "duration" : 11534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может открыть счёт",
+    "uid" : "296da0ed2b3e6edd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419960150,
+      "stop" : 1614419967317,
+      "duration" : 7167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может закрыть счёт",
+    "uid" : "885d206673327eff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419967317,
+      "stop" : 1614419975883,
+      "duration" : 8566
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может авторизоваться в системе",
+    "uid" : "8ff34cf8171a9e46",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419976186,
+      "stop" : 1614419982158,
+      "duration" : 5972
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может получить кредит",
+    "uid" : "372adaecd5c47430",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419982411,
+      "stop" : 1614419991202,
+      "duration" : 8791
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователь может открыть вклад",
+    "uid" : "67f8a0cc2dd46ce2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614419991423,
+      "stop" : 1614420001238,
+      "duration" : 9815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

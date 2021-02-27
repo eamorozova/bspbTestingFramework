@@ -1,0 +1,84 @@
+{
+  "uid" : "372adaecd5c47430",
+  "name" : "Пользователь может получить кредит",
+  "fullName" : "Кредиты.Пользователь может получить кредит",
+  "historyId" : "d6165421646dbdb82110b6cf779320a",
+  "time" : {
+    "start" : 1614419982411,
+    "stop" : 1614419991202,
+    "duration" : 8791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Кредиты"
+  }, {
+    "name" : "testClass",
+    "value" : "Кредиты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может получить кредит"
+  }, {
+    "name" : "package",
+    "value" : "Кредиты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "59328600da00184a",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/10//#testresult/59328600da00184a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614337020966,
+          "stop" : 1614337029934,
+          "duration" : 8968
+        }
+      }, {
+        "uid" : "2e9c81f1525f13b8",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/2e9c81f1525f13b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996561024,
+          "stop" : 1613996568202,
+          "duration" : 7178
+        }
+      }, {
+        "uid" : "c52cc06d74f164ae",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/c52cc06d74f164ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985267117,
+          "stop" : 1613985272787,
+          "duration" : 5670
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "372adaecd5c47430.json",
+  "parameterValues" : [ ]
+}

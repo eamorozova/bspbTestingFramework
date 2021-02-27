@@ -1,0 +1,93 @@
+{
+  "uid" : "67f8a0cc2dd46ce2",
+  "name" : "Пользователь может открыть вклад",
+  "fullName" : "Вклады.Пользователь может открыть вклад",
+  "historyId" : "cfc423197217358946b52fcc1c7be11d",
+  "time" : {
+    "start" : 1614419991423,
+    "stop" : 1614420001238,
+    "duration" : 9815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Вклады"
+  }, {
+    "name" : "testClass",
+    "value" : "Вклады"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователь может открыть вклад"
+  }, {
+    "name" : "package",
+    "value" : "Вклады"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e21d34da492cb269",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/10//#testresult/e21d34da492cb269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614337010962,
+          "stop" : 1614337020769,
+          "duration" : 9807
+        }
+      }, {
+        "uid" : "8931193483476461",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/9//#testresult/8931193483476461",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613996477100,
+          "stop" : 1613996484003,
+          "duration" : 6903
+        }
+      }, {
+        "uid" : "e6633cd67cb3c777",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/8//#testresult/e6633cd67cb3c777",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613985173723,
+          "stop" : 1613985179531,
+          "duration" : 5808
+        }
+      }, {
+        "uid" : "db019f0702b80a17",
+        "reportUrl" : "https://eamorozova.github.io/bspbTestingFramework/7//#testresult/db019f0702b80a17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613675047325,
+          "stop" : 1613675053682,
+          "duration" : 6357
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "67f8a0cc2dd46ce2.json",
+  "parameterValues" : [ ]
+}

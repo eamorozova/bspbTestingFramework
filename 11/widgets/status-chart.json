@@ -1,0 +1,111 @@
+[ {
+  "uid" : "885d206673327eff",
+  "name" : "Пользователь может закрыть счёт",
+  "time" : {
+    "start" : 1614419967317,
+    "stop" : 1614419975883,
+    "duration" : 8566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372adaecd5c47430",
+  "name" : "Пользователь может получить кредит",
+  "time" : {
+    "start" : 1614419982411,
+    "stop" : 1614419991202,
+    "duration" : 8791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67f8a0cc2dd46ce2",
+  "name" : "Пользователь может открыть вклад",
+  "time" : {
+    "start" : 1614419991423,
+    "stop" : 1614420001238,
+    "duration" : 9815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a2c8e802bd02452",
+  "name" : "Пользователь может заблокировать карту",
+  "time" : {
+    "start" : 1614419922432,
+    "stop" : 1614419931481,
+    "duration" : 9049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1845a2b7bad39aa5",
+  "name" : "Пользователь может создать подписку на оплату штрафов",
+  "time" : {
+    "start" : 1614419940449,
+    "stop" : 1614419948355,
+    "duration" : 7906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "def48460f94d35ce",
+  "name" : "Пользователь может оформить новую карту",
+  "time" : {
+    "start" : 1614419891869,
+    "stop" : 1614419911348,
+    "duration" : 19479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "986d4d2a683143c4",
+  "name" : "Пользователь может создать автоплатёж",
+  "time" : {
+    "start" : 1614419948355,
+    "stop" : 1614419959889,
+    "duration" : 11534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a84430a10e7fab0",
+  "name" : "Пользователь может разблокировать карту",
+  "time" : {
+    "start" : 1614419931481,
+    "stop" : 1614419939877,
+    "duration" : 8396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ff34cf8171a9e46",
+  "name" : "Пользователь может авторизоваться в системе",
+  "time" : {
+    "start" : 1614419976186,
+    "stop" : 1614419982158,
+    "duration" : 5972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0df5d7b8aa4846",
+  "name" : "Пользователь может добавить карту другого банка",
+  "time" : {
+    "start" : 1614419911348,
+    "stop" : 1614419922432,
+    "duration" : 11084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "296da0ed2b3e6edd",
+  "name" : "Пользователь может открыть счёт",
+  "time" : {
+    "start" : 1614419960150,
+    "stop" : 1614419967317,
+    "duration" : 7167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

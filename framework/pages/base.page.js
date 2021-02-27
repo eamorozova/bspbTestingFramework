@@ -21,6 +21,7 @@ export class BasePage {
   }
 
   async getSuccessText() {
+    await this.page.waitForLoadState('networkidle');
     const text = await this.page.textContent('//div[@class="alert alert-success"]');
     return text;
   }

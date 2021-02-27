@@ -21,6 +21,6 @@ describe('Кредиты', () => {
   test('Пользователь может получить кредит', async () => {
     await pageProvider(page).loans().getLoan();
     const text = await pageProvider(page).loans().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Договор подписан');
   });
 });

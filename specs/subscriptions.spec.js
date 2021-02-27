@@ -21,12 +21,12 @@ describe('Подписки', () => {
   test('Пользователь может создать подписку на оплату штрафов', async () => {
     await pageProvider(page).subscriptions().addTrafficFinesSubscription();
     const text = await pageProvider(page).subscriptions().getDoneText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Подписка успешно создана');
   });
 
   test('Пользователь может создать автоплатёж', async () => {
     await pageProvider(page).subscriptions().addAutoPayment();
     const text = await pageProvider(page).subscriptions().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Спасибо за подписку');
   });
 });

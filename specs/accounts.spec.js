@@ -21,12 +21,12 @@ describe('Счета', () => {
   test('Пользователь может открыть счёт', async () => {
     await pageProvider(page).accounts().openAccount();
     const text = await pageProvider(page).accounts().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Открыт новый счёт');
   });
 
   test('Пользователь может закрыть счёт', async () => {
     await pageProvider(page).accounts().closeAccount();
     const text = await pageProvider(page).accounts().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toMatch(/Счёт (\d|\s){24} закрыт/);
   });
 });

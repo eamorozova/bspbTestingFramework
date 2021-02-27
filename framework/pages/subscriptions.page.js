@@ -16,6 +16,7 @@ export class SubscriptionsPage extends BasePage {
     };
 
     this.field = {
+      doneText: '//*[@id="subscription-notifications-container"]/div[@class="alert alert-info"]',
       drivingLicense: '//input[@name="drivingLicense"]',
       subscriptionName: '//input[@name="subscription.name"]',
       subscriptionAccount: '//input[@name="subscription.ref"]',
@@ -27,7 +28,7 @@ export class SubscriptionsPage extends BasePage {
     await this.click(this.button.addSubscription);
     await this.click(this.button.fines);
     await this.click(this.button.checkFines);
-    await this.fill(this.field.drivingLicense, randomNumber(9));
+    await this.fill(this.field.drivingLicense, randomNumber(10));
     await this.click(this.button.createSubscription);
   }
 
@@ -44,7 +45,7 @@ export class SubscriptionsPage extends BasePage {
   }
 
   async getDoneText() {
-    const text = await this.page.waitForSelector('//div[@class="alert alert-info"]');
+    const text = await this.page.textContent(this.field.doneText);
     return text;
   }
 }

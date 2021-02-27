@@ -24,29 +24,28 @@ describe('Карты', () => {
     await pageProvider(page).cards().clickOrderNewCard();
     const offer = await pageProvider(page).cards().getOfferText();
     if (offer) {
-      await pageProvider(page).cards().orderNewLimitedCard();
-    } else {
-      await pageProvider(page).cards().orderNewCard();
+      await pageProvider(page).cards().disableCreditLimit();
     }
+    await pageProvider(page).cards().orderNewCard();
     const text = await pageProvider(page).cards().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Спасибо, ваша заявка принята');
   });
 
   test('Пользователь может добавить карту другого банка', async () => {
     await pageProvider(page).cards().addOtherBankCard();
     const text = await pageProvider(page).cards().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toMatch(/Карта (\d|\s|\*){16,} добавлена./);
   });
 
   test('Пользователь может заблокировать карту', async () => {
     await pageProvider(page).cards().blockCard();
     const text = await pageProvider(page).cards().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toMatch(/Карта (\d|\s|\*){16,} успешно заблокирована./);
   });
 
   test('Пользователь может разблокировать карту', async () => {
     await pageProvider(page).cards().unblockCard();
     const text = await pageProvider(page).cards().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toMatch(/Карта (\d|\s|\*){16,} успешно разблокирована./);
   });
 });

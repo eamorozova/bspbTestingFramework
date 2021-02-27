@@ -51,7 +51,7 @@ export class LoansPage extends BasePage {
   }
 
   async getSuccessText() {
-    const text = await this.page.waitForSelector(this.field.successText);
+    const text = await this.page.textContent(this.field.successText);
     return text;
   }
 }

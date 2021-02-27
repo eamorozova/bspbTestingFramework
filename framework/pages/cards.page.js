@@ -8,6 +8,7 @@ export class CardsPage extends BasePage {
     this.button = {
       block: 'text="Заблокировать"',
       confirmBlock: '#block-card',
+      disableLimit: 'text=" Подключить кредитный лимит "',
       orderFirstCard: 'text="Заказать"',
       orderNewCard: '#order-new-card-link',
       orderNewCard2: '#forward',
@@ -57,6 +58,10 @@ export class CardsPage extends BasePage {
 
   async clickOrderNewCard() {
     await this.click(this.button.orderNewCard);
+  }
+
+  async disableCreditLimit() {
+    await this.click(this.button.disableLimit);
   }
 
   async getOfferText() {

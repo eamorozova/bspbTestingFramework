@@ -21,6 +21,6 @@ describe('Вклады', () => {
   test('Пользователь может открыть вклад', async () => {
     await pageProvider(page).deposits().openDeposit();
     const text = await pageProvider(page).deposits().getSuccessText();
-    expect(text).toBeTruthy();
+    expect(text).toContain('Вклад открыт.');
   });
 });
